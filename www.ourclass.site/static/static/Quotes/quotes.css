@@ -1,0 +1,37 @@
+.main-hero {
+    width: 100%;
+    height: 100%;
+}
+
+.main-hero::before {
+    content: '';
+    background: url("Pics/sagaafee.jpg"), ;
+    filter: blur(9px);
+    -webkit-filter: blur(9px);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    z-index: -1;
+    position: absolute;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.main-hero::after {
+    content: '';
+    position: absolute;
+    /* background-color: ; */
+    width: 100%;
+    height: 100%;
+}
+.quotes-heading{
+    font-family: James Stroker;
+    color: white ;
+    font-size: 4.2rem;
+}

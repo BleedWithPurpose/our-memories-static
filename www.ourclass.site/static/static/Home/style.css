@@ -1,0 +1,72 @@
+@import url(fonts.css);
+
+:root{
+    ---darkBrown: #450000;
+    ---pink:rgba(147, 81, 81, 21%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5rem;
+    font-family: Tahoma, MV Typewriter Bold;
+}
+
+.dhi {
+    direction: rtl;
+}
+
+.eng {
+    direction: ltr;
+}
+.snapper {
+    scroll-snap-align: start;
+}
+
+.flex-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-parent-col {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.headingDhi {
+    font-family: Aammu;
+    font-size: 3.8rem;
+    direction: rtl;
+}
+.textOutline {
+    text-shadow: -1px -1px 0 #000000,
+        1px -1px 0 #000000,
+        -1px 1px 0 #000000,
+        1px 1px 0 #000000,
+        -2px 0 0 #000000,
+        2px 0 0 #000000,
+        0 2px 0 #000000,
+        0 -2px 0 #000000,
+
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000,
+        -2px 2px 0 #000000,
+        2px 2px 0 #000000,
+        -3px 0 0 #000000,
+        3px 0 0 #000000,
+        0 3px 0 #000000,
+        0 -3px 0 #000000,
+        0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
