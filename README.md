@@ -1,0 +1,2 @@
+# Our Memories 
+This is the static archive file of the original highschool our memories project deployed in April 30th 2024, which ceased production due to expiration of AWS aswell as the 1-year lease on the domain. 
