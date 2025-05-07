@@ -56,9 +56,6 @@
     transform: translate(-51%, -65%);
     z-index: 5;
 }
-#homepageheader > .div {
-    font-family: James Stroker;
-}
 .mobilepic {
     display: none;
     width: 100vw;
