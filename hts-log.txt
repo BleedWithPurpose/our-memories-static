@@ -1,0 +1,78 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 28 Apr 2025 14:54:07 at http://www.ourclass.site/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.ourclass.site/ -O1 "C:\My Web Sites\class website 2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:54:07	Warning: 	* security warning: maximum bandwidth limited to 250000 to avoid server overload
+15:25:02	Warning: 	file not stored in cache due to bogus state (broken size, expected 4287459 got 3652344): www.ourclass.site/static/media/images/1000007684.jpg
+15:25:05	Warning: 	file not stored in cache due to bogus state (broken size, expected 94100203 got 36857772): www.ourclass.site/static/media/videos/1000007669.mp4
+15:25:45	Warning: 	file not stored in cache due to bogus state (broken size, expected 197197244 got 99625608): www.ourclass.site/static/media/videos/document_6167834338571326278.mp4
+15:27:53	Warning: 	file not stored in cache due to bogus state (broken size, expected 7620665 got 3471192): www.ourclass.site/static/media/videos/1000007713.mp4
+15:28:06	Warning: 	file not stored in cache due to bogus state (broken size, expected 10370481 got 2020644): www.ourclass.site/static/media/videos/1000007693.mp4
+15:28:06	Warning: 	file not stored in cache due to bogus state (broken size, expected 23415060 got 4528800): www.ourclass.site/static/media/videos/1000007706.mp4
+15:30:29	Warning: 	file not stored in cache due to bogus state (broken size, expected 2011463 got 464868): www.ourclass.site/static/media/thumbnails/1000006850.jpg
+15:36:02	Error: 	"Forbidden" (403) at link www.ourclass.site/static/media/ (from www.ourclass.site/event/details/193/)
+15:36:02	Warning: 	Retry after error -4 (Incorrect length (99625608 Bytes, 197197244 expected)) at link www.ourclass.site/static/media/videos/document_6167834338571326278.mp4 (from www.ourclass.site/event/details/188/)
+15:36:02	Warning: 	Retry after error -4 (Incorrect length (36857772 Bytes, 94100203 expected)) at link www.ourclass.site/static/media/videos/1000007669.mp4 (from www.ourclass.site/event/details/175/)
+15:36:03	Warning: 	Retry after error -4 (Incorrect length (3652344 Bytes, 4287459 expected)) at link www.ourclass.site/static/media/images/1000007684.jpg (from www.ourclass.site/event/details/176/)
+15:36:14	Warning: 	Retry after error -4 (Incorrect length (3471192 Bytes, 7620665 expected)) at link www.ourclass.site/static/media/videos/1000007713.mp4 (from www.ourclass.site/event/details/176/)
+15:36:26	Warning: 	Retry after error -4 (Incorrect length (4528800 Bytes, 23415060 expected)) at link www.ourclass.site/static/media/videos/1000007706.mp4 (from www.ourclass.site/event/details/176/)
+15:37:21	Warning: 	Retry after error -4 (Incorrect length (2020644 Bytes, 10370481 expected)) at link www.ourclass.site/static/media/videos/1000007693.mp4 (from www.ourclass.site/event/details/176/)
+15:51:40	Warning: 	file not stored in cache due to bogus state (broken size, expected 197197244 got 154453392): www.ourclass.site/static/media/videos/document_6167834338571326278.mp4
+15:51:41	Warning: 	file not stored in cache due to bogus state (broken size, expected 94100203 got 91955952): www.ourclass.site/static/media/videos/1000007669.mp4
+15:51:44	Warning: 	file not stored in cache due to bogus state (broken size, expected 22685101 got 19816164): www.ourclass.site/static/media/videos/VID_20240830_200023_894.mp4
+15:59:58	Warning: 	file not stored in cache due to bogus state (broken size, expected 118132997 got 22232412): www.ourclass.site/static/media/videos/VID_20240831_085741_110.mp4
+16:07:45	Warning: 	file not stored in cache due to bogus state (broken size, expected 5218051 got 5168160): www.ourclass.site/static/media/videos/1000006856.mp4
+16:07:45	Warning: 	Retry after error -4 (Incorrect length (464868 Bytes, 2011463 expected)) at link www.ourclass.site/static/media/thumbnails/1000006850.jpg (from www.ourclass.site/?page=2)
+16:08:11	Warning: 	file not stored in cache due to bogus state (broken size, expected 85164249 got 14922396): www.ourclass.site/static/media/videos/document_6237842202416910957.mp4
+16:23:45	Warning: 	file not stored in cache due to bogus state (broken size, expected 40035206 got 32145156): www.ourclass.site/static/media/videos/0-02-06-c7cc32313ac3f94faf295a2150c404d662d305bae6a8842e3e6ffeb8e9cc0c27_7db199e727f96728.mp4
+16:24:04	Warning: 	file not stored in cache due to bogus state (broken size, expected 2603374 got 86580): www.ourclass.site/static/media/images/1000006746.jpg
+16:24:21	Warning: 	file not stored in cache due to bogus state (broken size, expected 47440189 got 46593360): www.ourclass.site/static/media/videos/0814_1.mp4
+16:24:33	Warning: 	file not stored in cache due to bogus state (broken size, expected 34411704 got 16820496): www.ourclass.site/static/media/videos/1000006761.mp4
+16:28:23	Warning: 	file not stored in cache due to bogus state (broken size, expected 6035491 got 167832): www.ourclass.site/static/media/images/20240719-DSC_4284.jpg
+16:28:28	Warning: 	file not stored in cache due to bogus state (broken size, expected 5212234 got 3427236): www.ourclass.site/static/media/images/20240719-DSC_4283.jpg
+16:45:58	Warning: 	file not stored in cache due to bogus state (broken size, expected 141189518 got 14203116): www.ourclass.site/static/media/videos/VID_20240605_172546.mp4
+16:54:32	Error: 	"Not Found" (404) at link www.ourclass.site/static/static/Home/Fonts/James (from www.ourclass.site/static/static/Home/fonts.css)
+16:54:32	Warning: 	Retry after error -4 (Incorrect length (154453392 Bytes, 197197244 expected)) at link www.ourclass.site/static/media/videos/document_6167834338571326278.mp4 (from www.ourclass.site/event/details/188/)
+16:54:33	Warning: 	Retry after error -4 (Incorrect length (91955952 Bytes, 94100203 expected)) at link www.ourclass.site/static/media/videos/1000007669.mp4 (from www.ourclass.site/event/details/175/)
+16:54:39	Warning: 	Retry after error -4 (Incorrect length (19816164 Bytes, 22685101 expected)) at link www.ourclass.site/static/media/videos/VID_20240830_200023_894.mp4 (from www.ourclass.site/event/details/173/)
+16:55:03	Warning: 	Retry after error -4 (Incorrect length (22232412 Bytes, 118132997 expected)) at link www.ourclass.site/static/media/videos/VID_20240831_085741_110.mp4 (from www.ourclass.site/event/details/173/)
+16:55:27	Warning: 	Retry after error -4 (Incorrect length (14922396 Bytes, 85164249 expected)) at link www.ourclass.site/static/media/videos/document_6237842202416910957.mp4 (from www.ourclass.site/event/details/190/)
+17:08:20	Warning: 	Retry after error -4 (Incorrect length (5168160 Bytes, 5218051 expected)) at link www.ourclass.site/static/media/videos/1000006856.mp4 (from www.ourclass.site/event/details/119/)
+17:08:21	Warning: 	Retry after error -4 (Incorrect length (46593360 Bytes, 47440189 expected)) at link www.ourclass.site/static/media/videos/0814_1.mp4 (from www.ourclass.site/event/details/132/)
+17:13:26	Warning: 	file not stored in cache due to bogus state (broken size, expected 118132997 got 74617308): www.ourclass.site/static/media/videos/VID_20240831_085741_110.mp4
+17:13:28	Warning: 	file not stored in cache due to bogus state (broken size, expected 85164249 got 65218716): www.ourclass.site/static/media/videos/document_6237842202416910957.mp4
+17:20:51	Warning: 	file not stored in cache due to bogus state (broken size, expected 64985253 got 17270712): www.ourclass.site/static/media/videos/1000004244.mp4
+17:49:41	Warning: 	Retry after error -4 (Incorrect length (32145156 Bytes, 40035206 expected)) at link www.ourclass.site/static/media/videos/0-02-06-c7cc32313ac3f94faf295a2150c404d662d305bae6a8842e3e6ffeb8e9cc0c27_7db199e727f96728.mp4 (from www.ourclass.site/event/details/103/)
+17:50:22	Warning: 	Retry after error -4 (Incorrect length (16820496 Bytes, 34411704 expected)) at link www.ourclass.site/static/media/videos/1000006761.mp4 (from www.ourclass.site/event/details/106/)
+17:50:25	Warning: 	Retry after error -4 (Incorrect length (86580 Bytes, 2603374 expected)) at link www.ourclass.site/static/media/images/1000006746.jpg (from www.ourclass.site/event/details/104/)
+17:50:43	Warning: 	Retry after error -4 (Incorrect length (3427236 Bytes, 5212234 expected)) at link www.ourclass.site/static/media/images/20240719-DSC_4283.jpg (from www.ourclass.site/event/details/116/)
+17:51:07	Warning: 	Retry after error -4 (Incorrect length (167832 Bytes, 6035491 expected)) at link www.ourclass.site/static/media/images/20240719-DSC_4284.jpg (from www.ourclass.site/event/details/116/)
+18:23:25	Warning: 	file not stored in cache due to bogus state (broken size, expected 2344093 got 729936): www.ourclass.site/static/media/images/IMG_20240222_120102.jpg
+18:23:25	Warning: 	Retry after error -4 (Incorrect length (14203116 Bytes, 141189518 expected)) at link www.ourclass.site/static/media/videos/VID_20240605_172546.mp4 (from www.ourclass.site/event/details/131/)
+18:52:08	Warning: 	file not stored in cache due to bogus state (broken size, expected 104882810 got 68897700): www.ourclass.site/static/media/videos/VID_20240111_203834.mp4
+18:52:15	Warning: 	file not stored in cache due to bogus state (broken size, expected 141189518 got 112797756): www.ourclass.site/static/media/videos/VID_20240605_172546.mp4
+18:53:08	Warning: 	file not stored in cache due to bogus state (broken size, expected 80752533 got 40506120): www.ourclass.site/static/media/videos/VID_20240111_210204.mp4
+19:26:06	Warning: 	file not stored in cache due to bogus state (broken size, expected 6242106 got 2063268): www.ourclass.site/static/media/videos/Snapchat-731198067.mp4
+19:26:10	Warning: 	file not stored in cache due to bogus state (broken size, expected 30954830 got 25222752): www.ourclass.site/static/media/videos/20231029_083854.mp4
+19:26:13	Warning: 	file not stored in cache due to bogus state (broken size, expected 4369315 got 3238092): www.ourclass.site/static/media/videos/Snapchat-1138302405_hQyVi6m.mp4
+19:31:11	Warning: 	Retry after error -4 (Incorrect length (74617308 Bytes, 118132997 expected)) at link www.ourclass.site/static/media/videos/VID_20240831_085741_110.mp4 (from www.ourclass.site/event/details/173/)
+19:31:42	Warning: 	Retry after error -4 (Incorrect length (65218716 Bytes, 85164249 expected)) at link www.ourclass.site/static/media/videos/document_6237842202416910957.mp4 (from www.ourclass.site/event/details/190/)
+19:32:17	Warning: 	file not stored in cache due to bogus state (broken size, expected 10912544 got 9345312): www.ourclass.site/static/media/videos/video-bb5b720a8dc831f236eb7b0ab2f5a203-V.mp4
+19:32:18	Warning: 	Retry after error -4 (Incorrect length (17270712 Bytes, 64985253 expected)) at link www.ourclass.site/static/media/videos/1000004244.mp4 (from www.ourclass.site/event/details/76/)
+19:33:55	Warning: 	Retry after error -4 (Incorrect length (729936 Bytes, 2344093 expected)) at link www.ourclass.site/static/media/images/IMG_20240222_120102.jpg (from www.ourclass.site/event/details/134/)
+19:34:22	Warning: 	Retry after error -4 (Incorrect length (112797756 Bytes, 141189518 expected)) at link www.ourclass.site/static/media/videos/VID_20240605_172546.mp4 (from www.ourclass.site/event/details/131/)
+19:37:47	Warning: 	file not stored in cache due to bogus state (broken size, expected 141189518 got 121779432): www.ourclass.site/static/media/videos/VID_20240605_172546.mp4
+19:37:47	Warning: 	Retry after error -4 (Incorrect length (68897700 Bytes, 104882810 expected)) at link www.ourclass.site/static/media/videos/VID_20240111_203834.mp4 (from www.ourclass.site/event/details/129/)
+19:37:58	Warning: 	Retry after error -4 (Incorrect length (40506120 Bytes, 80752533 expected)) at link www.ourclass.site/static/media/videos/VID_20240111_210204.mp4 (from www.ourclass.site/event/details/129/)
+19:45:12	Warning: 	Retry after error -4 (Incorrect length (25222752 Bytes, 30954830 expected)) at link www.ourclass.site/static/media/videos/20231029_083854.mp4 (from www.ourclass.site/event/details/21/)
+19:46:45	Warning: 	Retry after error -4 (Incorrect length (3238092 Bytes, 4369315 expected)) at link www.ourclass.site/static/media/videos/Snapchat-1138302405_hQyVi6m.mp4 (from www.ourclass.site/event/details/71/)
+19:46:56	Warning: 	Retry after error -4 (Incorrect length (2063268 Bytes, 6242106 expected)) at link www.ourclass.site/static/media/videos/Snapchat-731198067.mp4 (from www.ourclass.site/event/details/72/)
+19:47:04	Warning: 	Retry after error -4 (Incorrect length (9345312 Bytes, 10912544 expected)) at link www.ourclass.site/static/media/videos/video-bb5b720a8dc831f236eb7b0ab2f5a203-V.mp4 (from www.ourclass.site/event/details/6/)
+19:47:30	Error: 	"Incorrect length (121779432 Bytes, 141189518 expected)" (-4) after 2 retries at link www.ourclass.site/static/media/videos/VID_20240605_172546.mp4 (from www.ourclass.site/event/details/131/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 hours 54 minutes 30 seconds : 1726 links scanned, 1691 files written (3507830298 bytes overall) [3630100644 bytes received at 205438 bytes/sec], 3.7 requests per connection
+(3 errors, 64 warnings, 0 messages)
