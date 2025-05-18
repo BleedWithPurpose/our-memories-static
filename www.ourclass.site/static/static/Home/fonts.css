@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Aammu;
+    src: url(Fonts/aammufkF.ttf);
+}
+@font-face {
+    font-family: James Stroker;
+    src: url(Fonts/James-Stroker.ttf);
+}
+@font-face {
+    font-family: MV Typewriter;
+    src: url(Fonts/mvtyper.ttf);
+}
+@font-face {
+    font-family: MV Typewriter Bold;
+    src: url(Fonts/mvtypebold.ttf);
+}
+@font-face {
+    font-family: MV Mag Round;
+    src: url(Fonts/Mv_MAG_Round_Bold.otf);
+}
+@font-face {
+    font-family: Exo;
+    src: url(Fonts/Exo/static/Exo-Bold.ttf);
+}
+@font-face {
+    font-family: Exo Medium;
+    src: url(Fonts/Exo/static/Exo-Medium.ttf);
+}
+@font-face {
+    font-family: Exo Light;
+    src: url(Fonts/Exo/static/Exo-Light.ttf);
+}
