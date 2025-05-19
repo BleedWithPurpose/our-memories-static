@@ -1,5 +1,5 @@
 # Ignore a specific file
-.hts-log.txt
+hts-log.txt
 
 # Ignore everything in the folder
-hts-cache/
+hts-cache
