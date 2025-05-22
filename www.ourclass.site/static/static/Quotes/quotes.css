@@ -130,3 +130,21 @@ body {
 #load-more:hover {
     background-color: #916c53;
 }
+
+.card.centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 150px;
+    /* Or whatever fits your layout */
+}
+
+.card.centered-text .quote {
+    font-size: 1.2em;
+}
+
+.card .quote.no-quotes::before,
+.card .quote.no-quotes::after {
+    content: none;
+}

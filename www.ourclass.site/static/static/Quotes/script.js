@@ -2,7 +2,6 @@ let quotes = [];
 let currentPage = 0;
 const quotesPerPage = 20;
 
-// Fetch quotes from JSON file
 async function loadQuotes() {
 	try {
 		const res = await fetch("quotes.json");
@@ -16,20 +15,25 @@ async function loadQuotes() {
 
 function showDailyQuote() {
 	if (quotes.length === 0) return;
+
 	const random = quotes[Math.floor(Math.random() * quotes.length)];
-	document.getElementById("daily-quote").textContent = `"${random.text}"`;
-	if (random.dhivehi === true) {
-		document.getElementById(
-			"daily-author"
-		).textContent = `${random.author} —`;
-        
-        document.getElementById(
-            "daily-author"
-        ).classList.add("dhivehi");
-	} else
-		document.getElementById(
-			"daily-author"
-		).textContent = `— ${random.author}`;
+	const quoteEl = document.getElementById("daily-quote");
+	const authorEl = document.getElementById("daily-author");
+
+	// Author exists
+	if (random.author) {
+		quoteEl.textContent = `"${random.text}"`;
+
+		authorEl.textContent = random.dhivehi
+			? `${random.author} —`
+			: `— ${random.author}`;
+		authorEl.classList.toggle("dhivehi", !!random.dhivehi);
+	} else {
+		// No author
+		quoteEl.textContent = random.text;
+		authorEl.textContent = "";
+		authorEl.classList.remove("dhivehi");
+	}
 }
 
 function renderQuotes(filter = "", reset = false) {
@@ -54,25 +58,38 @@ function renderQuotes(filter = "", reset = false) {
 		const card = document.createElement("div");
 		card.className = "card";
 
-		if (quote.dhivehi === true) {
+		// No author case
+		if (!quote.author) {
+			card.classList.add("centered-text");
+		
+		//!!	const convoText = `" ${quote.conversation}"`
+
 			card.innerHTML = `
-      <p class="quote">"${quote.text}"</p>
-      <p class="author">${quote.author} —</p>
-    `;
-			card.classList.add("dhivehi");
+				<p class="quote no-quotes">${quote.text}</p>
+			`;
 		} else {
+			// With author
+			const quoteText = `"${quote.text}"`;
+			const authorText = quote.dhivehi
+				? `${quote.author} —`
+				: `— ${quote.author}`;
+
 			card.innerHTML = `
-      <p class="quote">"${quote.text}"</p>
-      <p class="author">— ${quote.author}</p>
-    `;
+				<p class="quote">${quoteText}</p>
+				<p class="author">${authorText}</p>
+			`;
+
+			if (quote.dhivehi === true) {
+				card.classList.add("dhivehi");
+			}
 		}
+
 		fragment.appendChild(card);
 	});
 
 	grid.appendChild(fragment);
 	currentPage++;
 
-	// Hide Load More if no more quotes
 	document.getElementById("load-more").style.display =
 		end < filteredQuotes.length ? "block" : "none";
 }
@@ -83,9 +100,6 @@ document
 		renderQuotes(document.getElementById("search").value)
 	);
 
-document.getElementById("search").addEventListener("input", (e) => {
-	renderQuotes(e.target.value);
-});
 document.getElementById("search").addEventListener("input", (e) => {
 	renderQuotes(e.target.value, true);
 });
