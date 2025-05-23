@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
+:root {
+    --body-background: #2e2a28;
+    --quote-background: #3a3431;
+    --border-color: #574f4a;
+    --author-color: #b8a28c;
+    --quote-text-color: #f0e7dd;
+}
+
 body {
-    background-color: #312320;
-    color: #f5eadd;
+    background-color: var(--body-background);
+    color: var(--quote-text-color);
     font-family: Exo Medium, MV Typewriter, serif;
     padding: 1.5rem;
 }
@@ -25,50 +33,52 @@ body {
     font-size: 2.5rem;
     font-family: Exo, serif;
     margin-bottom: 1.5rem;
-    color: #f5eadd;
+    color: var(--quote-text-color);
 }
 
 .quote-of-the-day {
-    background: #3c2b26;
+    background: var(--quote-background);
     padding: 1rem 2rem;
     margin-bottom: 2rem;
-    border-left: 4px solid #a47b62;
+    border-left: 4px solid #7a6a5e;
     border-radius: 1rem;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
 }
 
 .quote-of-the-day h2 {
     margin-bottom: 0.5rem;
     font-family: Exo, serif;
     font-size: 1.5rem;
-    color: #c7a17a;
+    color: var(--author-color);
 }
 
 .quote-text {
     font-size: 1.25rem;
     line-height: 1.6;
-    color: #f5eadd;
+    color: var(--quote-text-color);
 }
 
 .author-text {
     text-align: right;
     font-style: italic;
-    color: #c7a17a;
+    color: var(--author-color);
     margin-top: 0.5rem;
 }
+
 .dhivehi.author-text {
     text-align: left;
 }
+
 #search {
     margin-top: 1rem;
     padding: 0.7rem 1rem;
     width: 100%;
     max-width: 400px;
-    border: 1px solid #5a4034;
+    border: 1px solid var(--border-color);
     border-radius: 8px;
     font-size: 1rem;
-    background-color: #3b2a25;
-    color: #f5eadd;
+    background-color: var(--quote-background);
+    color: var(--quote-text-color);
 }
 
 .grid {
@@ -78,12 +88,12 @@ body {
 }
 
 .card {
-    background: #3c2b26;
+    background: var(--quote-background);
     border-radius: 1rem;
     padding: 1.5rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    border: 1px solid #5a4034;
+    border: 1px solid var(--border-color);
 }
 
 .card:hover {
@@ -95,21 +105,22 @@ body {
     font-size: 1.1rem;
     line-height: 1.6;
     margin-bottom: 1rem;
-    color: #f5eadd;
+    color: var(--quote-text-color);
 }
 
 .card .author {
     font-size: 0.95rem;
     font-style: italic;
-    color: #c7a17a;
+    color: var(--author-color);
     text-align: right;
     font-family: Exo Light, MV Typewriter, serif;
 }
 
-.dhivehi .quote{
+.dhivehi .quote {
     direction: rtl;
     text-align: right;
 }
+
 .dhivehi .author {
     text-align: left;
 }
@@ -119,8 +130,8 @@ body {
     margin: 2rem auto;
     padding: 0.75rem 2rem;
     font-size: 1rem;
-    background: #a47b62;
-    color: #f5eadd;
+    background: #7a6a5e;
+    color: var(--quote-text-color);
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -128,7 +139,7 @@ body {
 }
 
 #load-more:hover {
-    background-color: #916c53;
+    background-color: #948477;
 }
 
 .card.centered-text {
@@ -137,7 +148,6 @@ body {
     align-items: center;
     text-align: center;
     min-height: 150px;
-    /* Or whatever fits your layout */
 }
 
 .card.centered-text .quote {

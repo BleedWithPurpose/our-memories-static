@@ -46,6 +46,44 @@
 }
 
 
+.quotes-redirect-button {
+    padding: 2px 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.25rem;
+    font-family: Exo;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-bottom: 10px;
+    z-index: 10000;
+    background-color: rgb(48, 48, 48);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+}
+
+.quotes-redirect-button::after {
+    content: '⟶';
+    /* or '⇩' or a down arrow icon */
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-200%) translateY(-12px);
+    opacity: 0;
+    transition: transform 0.4s ease, opacity 0.3s ease;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.quotes-redirect-button:hover::after {
+    transform: translateX(100%) translateY(-12px);
+    opacity: 1;
+}
+
 #homepageheader {
     font-family: James Stroker;
     color: white;
@@ -56,6 +94,7 @@
     transform: translate(-51%, -65%);
     z-index: 5;
 }
+
 .mobilepic {
     display: none;
     width: 100vw;
@@ -181,7 +220,8 @@
     text-align: center;
     cursor: pointer;
     text-decoration: none;
-    height: min-content}
+    height: min-content
+}
 
 .gridboy_image {
     width: 100%;
@@ -254,7 +294,7 @@
     .gridboy {
         height: min-content;
         width: 100%;
- }
+    }
 
     .button {
         font-size: .8rem;
