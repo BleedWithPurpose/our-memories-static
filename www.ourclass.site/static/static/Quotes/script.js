@@ -57,16 +57,28 @@ function renderQuotes(filter = "", reset = false) {
 	pageQuotes.forEach((quote) => {
 		const card = document.createElement("div");
 		card.className = "card";
+		
+		if (quote.dhivehi === true) {
+			card.classList.add("dhivehi");
+		}
 
 		// No author case
 		if (!quote.author) {
-			card.classList.add("centered-text");
-		
-		//!!	const convoText = `" ${quote.conversation}"`
 
-			card.innerHTML = `
+
+
+			if (quote.conversation) {
+				card.innerHTML = `
+					<p class="quote no-quotes">${quote.text}</p>
+					<p class="quote no-quotes">${quote.conversation}</p>
+				`;
+			}
+			else {
+				card.classList.add("centered-text");
+				card.innerHTML = `
 				<p class="quote no-quotes">${quote.text}</p>
 			`;
+			}
 		} else {
 			// With author
 			const quoteText = `"${quote.text}"`;
@@ -79,10 +91,9 @@ function renderQuotes(filter = "", reset = false) {
 				<p class="author">${authorText}</p>
 			`;
 
-			if (quote.dhivehi === true) {
-				card.classList.add("dhivehi");
-			}
+
 		}
+
 
 		fragment.appendChild(card);
 	});

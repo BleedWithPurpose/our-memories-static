@@ -149,13 +149,11 @@
         "dhivehi": true
     },
     {
-        "text": "What if he kills himself?",
-        "author": "Aiman"
+        "text": "Aiman: What if he kills himself?",
+        "author": "",
+        "conversation":"Hisham: Hees."
     },
-    {
-        "text": "Hees.",
-        "author": "Hizaamu"
-    },
+   
     {
         "text": "ޝޮކެކޭ އިނީ، I don't think it's an absorber",
         "author": "ހިޞާން",
@@ -178,12 +176,16 @@
         "author": "Lubbe"
     },
     {
+        "text": "Ihavandhland",
+        "author": "Yaaseen"
+    },
+    {
         "text": "Humans are F**ked inside and out",
         "author": "Lubbe"
     },
     {
         "text": "ހޫން! ކޯޗެއްތަ!!؟",
-        "author": "ސަމާ މސް",
+        "author": "ސަމާ މިސް",
         "dhivehi": true
     },
     {
@@ -229,6 +231,12 @@
         "author": "ސަމާ މިސް",
         "dhivehi": true
     },
+    {
+        "text": "އިހަވަންދޫގައި އައިސްކުރީމް ހުރޭތަ؟",
+        "author": "ޔާސީން",
+        "dhivehi": true
+    },
+
     {
         "text": "My uncle is gonna divorce my wife",
         "author": "Razaan"
@@ -303,13 +311,9 @@
         "author": "Hanaan"
     },
     {
-        "text": "Hisham: Razaan how do you find weber? <br> Razaan: ބ" ,
-        "author": "Hisham"
-    },
-    {
-        "text": "ބ",
-        "author": "Razaan",
-        "dhivehi": true
+        "text": "Hisham: Razaan how do you find weber?" ,
+        "author": "",
+        "conversation":"Razaan: ބ"
     },
     {
         "text": "މުަވާކަލޯ",
